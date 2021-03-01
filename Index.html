@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="loginworks.css"
+</head>
+<body>
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="Username"/>
+            <input type="text" placeholder="Password"/>
+                <input type="text" placeholder="Email Id"/>
+                <button>Create</button>
+                <p class="message">Already Registered? <a href="#"> Login</a></p>
+              </form>
+<form class="login-form">
+  <input type="text" placeholder="Username"/>
+    <input type="password" placeholder="Password"/>
+  
+    <form> <input type="button" value="Login" onclick="window.location.href='Home.html'" />
+</form>
+    <p class="message"> Not Registered? <a href="#">Register</a></p>
+            </form>
+            </div>
+          </div>
+  <script src='https://code.jquery.com/jquery-3.3.1.min.js'>
+  </script>
+
+  <script>
+  $('.message a').click(function() {
+  $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+</script>
+  </body>
+
+</html>

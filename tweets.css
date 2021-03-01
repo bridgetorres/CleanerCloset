@@ -1,0 +1,22 @@
+h1{
+    color: white;
+     text-align: center;
+     font-family: "Roboto", sans-serif;
+     font-style: oblique;
+     font-size: 46px;
+     display: block;
+     font-weight: lighter;
+     font-weight: bold;
+     text-transform: uppercase;
+     background-color: black;
+     display: block;
+}
+
+body {
+     text-align: right;
+}
+
+.container1{
+    text-align: left;
+}
+    

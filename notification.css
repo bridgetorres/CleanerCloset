@@ -1,0 +1,14 @@
+.twt_wrap > iframe {
+  margin: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.timeline-Widget{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
